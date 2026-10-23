@@ -1,16 +1,77 @@
-# React + Vite
+# ShopEase – E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive e-commerce website built with React, JavaScript, and Tailwind CSS. ShopEase allows users to browse products, search and filter items, view product details, and manage their shopping cart.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse products fetched from the Fake Store API
+- Search products by name
+- Filter products by category
+- View individual product details
+- Add and remove products from the cart
+- Increase and decrease product quantities
+- Automatically calculate cart totals
+- Save cart data using Local Storage
+- Responsive design for desktop and mobile
+- Loading and error states for API requests
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Tailwind CSS
+- React Router DOM
+- Context API
+- React Hooks (useState, useEffect, useContext)
+- Local Storage
+- Fake Store API
+- Vite
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Developer-Diary/shopease.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd shopease
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## API
+
+Product data is provided by [Fake Store API](https://fakestoreapi.com/).
+
+## Future Improvements
+
+- User authentication
+- Backend integration
+- Real payment gateway
+- Order management
+
+## Author
+
+**Developer-Diary**
+
+GitHub: https://github.com/Developer-Diary
+
+---
+
+*This project was developed as a frontend development portfolio project.*
